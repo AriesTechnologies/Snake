@@ -1,2 +1,2 @@
 # Snake
- Snake V2
+ Snake V2 (First Game)
