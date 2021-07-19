@@ -54,14 +54,14 @@ Direction = "Right"
 gameDisplay = pygame.display.set_mode((display_w, display_h))
 pygame.display.set_caption("Snake 2.0")
 
-icon = pygame.image.load('C:/Users/AtlasDisease/Pictures/Games/Snake/Icon.png')
+icon = pygame.image.load('./Icon.png')
 pygame.display.set_icon(icon)
 gameDisplay.fill(black)
 
 #Images:
-SnakeImg = pygame.image.load('C:/Users/AtlasDisease/Pictures/Games/Snake/SnakeHead.png')
-AppleImg = pygame.image.load('C:/Users/AtlasDisease/Pictures/Games/Snake/Apple.png')
-BirdieImg = pygame.image.load('C:/Users/AtlasDisease/Pictures/Games/Snake/Birdie.png')
+SnakeImg = pygame.image.load('./SnakeHead.png')
+AppleImg = pygame.image.load('./Apple.png')
+BirdieImg = pygame.image.load('./Birdie.png')
 
 #Definitions:
 def pause():
